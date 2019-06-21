@@ -1,0 +1,77 @@
+
+
+/* --HEADER-- */
+.navbar {
+  margin-bottom: 0;
+}
+
+.info-square{
+  padding: 5px;
+  width: 100%;
+}
+body{
+  background-color: darkslategray;
+}
+tr{
+  cursor: hand;
+}
+section{
+  padding: 10px 10px 0px 0px;
+}
+.jumbotron{
+  background: rgb(43, 93, 138);
+  color: #FFF;
+  padding: 0px 0px;
+  margin-bottom: 0;
+}
+.eventosMargin{
+  margin-top: -1em;
+}
+.main{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.title-color, .color{
+  color: #6b0a0a;
+}
+.post-title a{
+  color:#333;
+}
+
+.post .thumb{
+  margin-right: 10px;
+  width: 100%;
+}
+
+.post .thumb img{
+  width: 100%;
+  height: auto;
+  height: auto;
+}
+
+.post .contenedor-botones{
+  width: 100%;
+  height: auto;
+}
+.eventosMargin .titulo-info{
+  color: #161486;
+}
+.estatico{
+  position: fixed;;
+  right: 0px;
+}
+.inline{
+  float: left;
+}
+/*- Media Query-*/
+/*hacer imagenes mas grandes en dispositivos pequeños*/
+@media screen and (max-width: 768px){
+  .post .thumb {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+
+
+}/*media*/
